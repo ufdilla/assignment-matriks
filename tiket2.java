@@ -11,7 +11,11 @@ public class tiket2 {
             for (int j = 0; j < data[0].length; j++) {
                 if (i == j)
                      continue; 
-                else 
+                
+                else if (data[i][j] == 0)
+                    continue;
+
+                else
                     System.out.print(data[i][j] + " ");
             }
             System.out.println();
