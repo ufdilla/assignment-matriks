@@ -9,6 +9,9 @@ public class tiket2 {
 
         for (int i = 0; i < data.length; i++) { //nested repetition
             for (int j = 0; j < data[0].length; j++) {
+                if (i == j)
+                     continue; 
+                else 
                     System.out.print(data[i][j] + " ");
             }
             System.out.println();
