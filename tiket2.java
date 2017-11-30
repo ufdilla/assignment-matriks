@@ -9,10 +9,7 @@ public class tiket2 {
 
         for (int i = 0; i < data.length; i++) { //nested repetition
             for (int j = 0; j < data[0].length; j++) {
-                if (i == j)
-                     continue; 
-                
-                else if (data[i][j] == 0)
+              if (data[i][j] == 0)
                     continue;
 
                 else
